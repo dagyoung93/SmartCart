@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="287dp"
+        android:layout_weight="0.65"
+        android:background="@drawable/back_1"
+        android:orientation="vertical" >
+        
+    </LinearLayout>
+	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/back_2"
+        android:orientation="vertical">
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center">
+
+			<ImageButton
+			    android:id="@+id/cart"
+			    android:layout_width="100dp"
+			    android:layout_height="100dp"
+			    android:scaleType="centerCrop"
+			    android:src="@drawable/order" />
+
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="84dp"
+		    android:gravity="center"
+		    android:orientation="horizontal" >
+
+			<Button
+			    android:id="@+id/join"
+			    android:layout_width="120dp"
+			    android:layout_height="wrap_content"
+			    android:text="Join" />
+
+		    <Button
+		        android:id="@+id/login"
+		        android:layout_width="120dp"
+		        android:layout_height="wrap_content"
+		        android:text="login" />
+		</LinearLayout>
+
+		<LinearLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center">
+			<TextView 
+		        android:id="@+id/hello"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=""
+		        android:textSize="30dp"/>
+		</LinearLayout>
+    </LinearLayout>
+</LinearLayout>
